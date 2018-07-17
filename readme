@@ -1,0 +1,13 @@
+@@ -140,6 +144,10 @@
+                        gpios = <&wgpio 0 0>;
+                        default-state = "on";
+                };
++               mic-rest {
++                       label = "qizhi:ephyled4:mic";
++                       gpios = <&gpio1 7 0>;
++               };
+        };
+
+
+
+
